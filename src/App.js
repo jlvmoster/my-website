@@ -1,9 +1,11 @@
+import Topbar from './components/Topbar';
+
 import { compose } from './contexts/util';
 import { withAppContext } from './contexts/AppContext';
 
 const App = () => (
-  <div className='max-w-7xl mx-auto sm:px-6 lg:px-8'>
-    <h1 className='text-3xl font-bold underline'>Hello world!</h1>
+  <div className='min-h-screen mx-auto bg-gradient-to-b from-gray-900 to-gray-800'>
+    <Topbar />
   </div>
 );
 
