@@ -5,7 +5,7 @@ import { withAppContext } from './contexts/AppContext';
 
 const App = () => (
   <div className='min-h-screen mx-auto bg-gradient-to-b from-gray-900 to-gray-800'>
-    <Topbar />
+    <Topbar title='Moster, Inc.' />
   </div>
 );
 
