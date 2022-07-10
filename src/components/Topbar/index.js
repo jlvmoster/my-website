@@ -14,7 +14,7 @@ const Topbar = ({ title }) => (
           key={link.name}
           href={link.href}
           target={link?.isBlank && '_blank'}
-          className='text-lg sm:text-2xl text-slate-200 hover:text-white font-light hover:font-bold'>
+          className='text-lg sm:text-2xl text-slate-200 font-light hover:underline'>
           {link.name}
         </a>
       ))}
